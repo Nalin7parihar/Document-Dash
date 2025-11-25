@@ -7,7 +7,7 @@ app.include_router(qna.router)
 app.include_router(upload.router)
 @app.get("/")
 async def root():
-    return {"RAG APPLICATION": "LETSSSZOOOGOOO"}
+    return {"RAG APPLICATION": "LETSSS ZOOOGOOO"}
 
 
 
